@@ -63,14 +63,14 @@ h3{
     display: flex;
 }
 
-.card img{
-  /* display: block;
-    width: 300px; */
+/* .card img{
+  display: block;
+    width: 300px;
     padding:18px !important; 
     height: 220px !important;
-    /* margin-left: auto;
-    margin-right: auto; */
-}
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .result{
   text-align: center;
@@ -79,15 +79,15 @@ h3{
 
 
 
-  .card {
-    /* Add shadows to create the "card" effect */
+  /* .card {
+
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 350px !important;
     height: 300px !important;
   }
   
-  /* On mouse-over, add a deeper shadow */
+
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
@@ -96,9 +96,8 @@ h3{
     width: 100%;
     height: 396.66px;
     object-fit: cover;
-  }
-  
-  /* Add some padding inside the card container */
+  } */
+
   .container {
     padding: 2px 16px;
   }
@@ -233,72 +232,72 @@ body {
 
 
   .homeBG{
-    background-image: url(../self_photo/home_bg.png);
+    background-image: url(../assets/home_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
   .detectBG{
-    background-image: url(../self_photo/detectbg.jpg);
+    background-image: url(../assets/detectbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .aboutusBG{
-    background-image: url(../self_photo/aboutus_bg2_cropped.png);
+    background-image: url(../assets/aboutus_bg2_cropped.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .blb{
-    background-image: url(../self_photo/diseases_library_imgs/header-blb.jpg);
+    background-image: url(../assets/diseases_library_imgs_old/header-blb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .narrowBrownSpot{
-    background-image: url(../self_photo/diseases_library_imgs/narrow_brown_spot_1.png);
+    background-image: url(../assets/diseases_library_imgs_old/narrow_brown_spot_1.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .bls{
-    background-image: url(../self_photo/diseases_library_imgs/bls-header.jpg);
+    background-image: url(../assets/diseases_library_imgs_old/bls-header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .bpb{
-    background-image: url(../self_photo/diseases_library_imgs/bpb_bg1.jpg);
+    background-image: url(../assets/diseases_library_imgs_old/bpb_bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .blas{
-    background-image: url(../self_photo/diseases_library_imgs/blas_bg.jpg);
+    background-image: url(../assets/diseases_library_imgs_old/blas_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .sundep{
-    background-image: url(../self_photo/diseases_library_imgs/sundepbg1.jpg);
+    background-image: url(../assets/diseases_library_imgs_old/sundepbg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .bulai{
-    background-image: url(../self_photo/diseases_library_imgs/bulaibg.jpg);
+    background-image: url(../assets/diseases_library_imgs_old/bulaibg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .hispa{
-    background-image: url(../self_photo/diseases_library_imgs/hispabg.jpg);
+    background-image: url(../assets/diseases_library_imgs_old/hispabg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .tungro{
-    background-image: url(../self_photo/diseases_library_imgs/tungrobg.jpg);
+    background-image: url(../assets/diseases_library_imgs_old/tungrobg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }

@@ -25,28 +25,33 @@
 
 <body class="homeBG">
   <header>
-    <div class="row" style="margin-top:50px!important;text-align: center;">
-      <div class="col-2 offset-3">
-        <a class="active fw-bold" href="{{ url_for('index') }}">Home</a>
-      </div>
-      <div class="col-2">
-        <a class="active fw-bold" href="{{ url_for('predict') }}">Deteksi</a>
-      </div>
-      <div class="col-2">
-        <a class="active fw-bold" href="{{ url_for('aboutus') }}">Tentang Kami</a>
+    <div style="width: 50% !important; margin-left: auto !important; margin-right: auto !important; margin-top: 50px !important;">
+      <div class="row justify-content-center text-center">
+        <div class="col-3">
+          <a class="active fw-bold" href="{{ url_for('index') }}">Home</a>
+        </div>
+        <div class="col-3">
+          <a class="active fw-bold" href="{{ url_for('info') }}">Info</a>
+        </div>
+        <div class="col-3">
+          <a class="active fw-bold" href="{{ url_for('predict') }}">Deteksi</a>
+        </div>
+        <div class="col-3">
+          <a class="active fw-bold" href="{{ url_for('aboutus') }}">Tentang Kami</a>
+        </div>
       </div>
     </div>
   </header>
 
   <div style="margin-top: 12%;"></div>
 
-  <img src="../static/self_photo/logo.png" class="center">
+  <img src="../static/assets/logo_2.png" class="center">
 
   <div style="margin-top: 12%;"></div>
 
   <h2 class="font-yeseva-one" style="text-align:center;">
     <span class="font-green">Apa Itu</span>
-    <span class="font-dark-green">PANIC </span>
+    <span class="font-dark-green">PANIC</span>
     <span class="font-green">?</span>
   </h2>
 
@@ -86,7 +91,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/narrow_brown_spot_carousel.png"
+        <img src="../static/assets/diseases_library_imgs_old/narrow_brown_spot_carousel.png"
           class="d-block center-carousel" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">BERCAK DAUN COKLAT</h5>
@@ -96,7 +101,7 @@
       </div>
 
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/blas_carousel.png" class="d-block center-carousel"
+        <img src="../static/assets/diseases_library_imgs_old/blas_carousel.png" class="d-block center-carousel"
           alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">BLAS</h5>
@@ -105,7 +110,7 @@
       </div>
 
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/blb_carousel.png" class="d-block center-carousel"
+        <img src="../static/assets/diseases_library_imgs_old/blb_carousel.png" class="d-block center-carousel"
           alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">HAWAR DAUN BAKTERI</h5>
@@ -114,7 +119,7 @@
       </div>
 
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/bls_carousel.png" class="d-block center-carousel"
+        <img src="../static/assets/diseases_library_imgs_old/bls_carousel.png" class="d-block center-carousel"
           alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">HAWAR DAUN BERGARIS</h5>
@@ -123,7 +128,7 @@
       </div>
 
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/bpb_carousel.png" class="d-block center-carousel"
+        <img src="../static/assets/diseases_library_imgs_old/bpb_carousel.png" class="d-block center-carousel"
           alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">HAWAR MALAI PADI</h5>
@@ -132,7 +137,7 @@
       </div>
 
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/bulai_carousel.png" class="d-block center-carousel"
+        <img src="../static/assets/diseases_library_imgs_old/bulai_carousel.png" class="d-block center-carousel"
           alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">BULAI</h5>
@@ -141,7 +146,7 @@
       </div>
 
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/hispa_carousel.png" class="d-block center-carousel"
+        <img src="../static/assets/diseases_library_imgs_old/hispa_carousel.png" class="d-block center-carousel"
           alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">HISPA</h5>
@@ -150,7 +155,7 @@
       </div>
 
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/sundep_carousel.png" class="d-block center-carousel"
+        <img src="../static/assets/diseases_library_imgs_old/sundep_carousel.png" class="d-block center-carousel"
           alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">SUNDEP</h5>
@@ -160,7 +165,7 @@
       </div>
 
       <div class="carousel-item" data-bs-interval="3000">
-        <img src="../static/self_photo/diseases_library_imgs/tungro_carousel.png" class="d-block center-carousel"
+        <img src="../static/assets/diseases_library_imgs_old/tungro_carousel.png" class="d-block center-carousel"
           alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5 class="font-yeseva-one">TUNGRO</h5>
